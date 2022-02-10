@@ -1,0 +1,40 @@
+\\JAYCEE R. ZAPANTA
+\\BSIE 1-1
+\\PERFORMANCE TASK #1
+\\FEB 10, 2022
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+
+int number;
+    
+    char bu;
+   
+   do
+   {1
+    printf("Enter a Number: ");
+    scanf("%d", &number);
+
+    
+    if(number % 2 == 0)
+        printf("\n%d is EVEN NUMBER.", number);
+    else
+        printf("\n%d is ODD NUMBER.", number);
+
+    // 
+    cout << "\n---------------------------" << endl;
+    cout << " \nTRY ANOTHER NUMBER? [C] : ";
+    cin >> bu;
+
+       
+   } while ( bu == 'c'|| bu == 'C');
+   
+   
+
+
+    return 0;
+}
